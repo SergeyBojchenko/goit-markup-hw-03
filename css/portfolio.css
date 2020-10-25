@@ -71,6 +71,7 @@
 }
 
   .body {
+    max-width: 1600px;  
     font-family: roboto, sans-serif;
     font-Weight: 400
     font-size: 14px;
