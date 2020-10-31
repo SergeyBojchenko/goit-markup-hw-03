@@ -281,15 +281,18 @@ ul {
 .list-portfolio {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     align-items: flex-start;
-    margin-left: -30px;
+    margin-left: -px;
     margin-top: px;
 }
 
 .item-portfolio {
-    flex-basis: calc(100% / 3 - 30px);
-    margin-left: 30px;
+    flex-basis: calc((100% - 60px) / 3);
+    margin-right: 30px;
+}
+
+.item-portfolio:nth-child(3n) {
+    margin-right: 0px;
 }
 
 .item-portfolio:not(.an-exception) {
